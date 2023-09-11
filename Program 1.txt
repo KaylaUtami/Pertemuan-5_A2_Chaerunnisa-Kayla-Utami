@@ -1,0 +1,8 @@
+#1-10 bersilangan dengan 10-1
+x = 1 
+y = 10
+while x <= 10:
+    print(x, end="") #end=""agar otput kesamping
+    print(y, end="")
+    x=x+1 
+    y=y-1

@@ -1,0 +1,9 @@
+#rata-rata
+data = int(input("Masukan banyak data="))
+x = 0
+rata = 0
+while x < data:
+    angka = int(input("Masukan angka:"))
+    rata = rata+angka
+    x = x+1 
+    print(rata/data)
