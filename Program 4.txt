@@ -1,9 +1,11 @@
-#rata-rata
-data = int(input("Masukan banyak data="))
-x = 0
-rata = 0
-while x < data:
-    angka = int(input("Masukan angka:"))
-    rata = rata+angka
-    x = x+1 
-    print(rata/data)
+print("PROGRAM MENGHITUNG NILAI RATA-RATA")
+n = int(input("Masukan banyak data="))
+print()
+data = []
+jum = 0
+for i in range(0,n):
+    temp = int(input("Masukan data ke-%d: "%(i+1)))
+    data.append(temp)
+    jum += data[i]
+    rata2 = jum/n 
+print("\nRata-rata = %0.2f" % rata2)
